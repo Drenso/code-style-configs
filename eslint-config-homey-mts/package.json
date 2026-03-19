@@ -1,0 +1,12 @@
+{
+  "name": "@drenso/eslint-config-homey-mts",
+  "version": "0.0.2",
+  "main": "index.mjs",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "@eslint/js": "~9",
+    "eslint": "~9",
+    "typescript": "~5",
+    "typescript-eslint": "~8"
+  }
+}
