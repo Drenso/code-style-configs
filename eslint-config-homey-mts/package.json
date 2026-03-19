@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.mjs",
   "license": "UNLICENSED",
+  "repository": "https://github.com/Drenso/code-style-configs",
   "peerDependencies": {
     "@eslint/js": "~9",
     "eslint": "~9",
