@@ -18,6 +18,7 @@ jobs:
       matrix:
         package:
           - eslint-config-homey-mts
+          - prettier-config-homey-mts
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
