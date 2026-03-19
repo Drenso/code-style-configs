@@ -29,6 +29,8 @@ jobs:
       - name: Check package version
         id: cpv
         uses: PostHog/check-package-version@v2
+        with:
+          path: ${{ matrix.package }}
       - name: Echo versions
         run: |
           echo "Committed version: ${{ steps.cpv.outputs.committed-version }}"
