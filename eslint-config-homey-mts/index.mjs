@@ -33,6 +33,25 @@ export default tseslint.config(
             '@typescript-eslint/no-import-type-side-effects': 'error',
             semi: [2, 'always'],
             'no-extra-semi': 'error',
+            'no-restricted-syntax': [
+                'error',
+                {
+                    selector: "CallExpression[callee.name='setInterval']",
+                    message: 'Use homey.setInterval instead.',
+                },
+                {
+                    selector: "CallExpression[callee.name='clearInterval']",
+                    message: 'Use homey.clearInterval instead.',
+                },
+                {
+                    selector: "CallExpression[callee.name='setTimeout']",
+                    message: 'Use homey.setTimeout instead.',
+                },
+                {
+                    selector: "CallExpression[callee.name='clearTimeout']",
+                    message: 'Use homey.clearTimeout instead.',
+                },
+            ],
         },
     },
 );
