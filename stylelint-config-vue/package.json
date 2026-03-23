@@ -1,0 +1,14 @@
+{
+  "name": "@drenso/stylelint-config-vue",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/Drenso/code-style-configs",
+  "dependencies": {
+    "@drenso/stylelint-config": "^0.0.1",
+    "stylelint-config-recommended-vue": "^1.6.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^17.5.0"
+  }
+}
