@@ -2,7 +2,7 @@
   "name": "@drenso/stylelint-config-vue",
   "version": "1.0.0",
   "main": "index.mjs",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": "https://github.com/Drenso/code-style-configs",
   "dependencies": {
     "@drenso/stylelint-config": "^1.0.0",
