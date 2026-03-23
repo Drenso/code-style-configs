@@ -1,6 +1,6 @@
 {
   "name": "@drenso/stylelint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.mjs",
   "license": "MIT",
   "repository": "https://github.com/Drenso/code-style-configs",
