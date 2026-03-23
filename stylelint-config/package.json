@@ -1,0 +1,13 @@
+{
+  "name": "@drenso/stylelint-config",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/Drenso/code-style-configs",
+  "dependencies": {
+    "stylelint-config-standard-scss": "^17.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^17.5.0"
+  }
+}
