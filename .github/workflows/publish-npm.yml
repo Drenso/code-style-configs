@@ -19,6 +19,8 @@ jobs:
         package:
           - eslint-config-homey-mts
           - prettier-config-homey-mts
+          - stylelint-config
+          - stylelint-config-vue
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
