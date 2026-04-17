@@ -8,7 +8,7 @@ export default tseslint.config(
     js.configs.recommended,
     ...tseslint.configs.recommended,
     {
-        files: ['**/*.mts'],
+        files: ['**/*.ts', '**/*.mts'],
         ignores: ['node_modules', '.homeybuild'],
         rules: {
             '@typescript-eslint/explicit-function-return-type': 'error',
