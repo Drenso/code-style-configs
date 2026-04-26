@@ -1,6 +1,6 @@
 {
   "name": "@drenso/prettier-config-homey-mts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.mjs",
   "license": "MIT",
   "repository": "https://github.com/Drenso/code-style-configs",
