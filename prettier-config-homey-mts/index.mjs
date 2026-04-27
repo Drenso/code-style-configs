@@ -13,7 +13,7 @@ export default {
     "vueIndentScriptAndStyle": false,
     "proseWrap": "preserve",
     "insertPragma": false,
-    "printWidth": 80,
+    "printWidth": 120,
     "requirePragma": false,
     "tabWidth": 2,
     "useTabs": false,
