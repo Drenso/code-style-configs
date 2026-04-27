@@ -1,6 +1,6 @@
 export default {
     "arrowParens": "avoid",
-    "bracketSameLine": false,
+    "bracketSameLine": true,
     "bracketSpacing": true,
     "semi": true,
     "experimentalTernaries": false,
