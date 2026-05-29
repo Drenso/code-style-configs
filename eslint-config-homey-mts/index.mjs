@@ -1,12 +1,13 @@
-import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
+import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 
-export default tseslint.config(
+export default defineConfig(
     {
         ignores: ['.homeybuild'],
     },
     js.configs.recommended,
-    ...tseslint.configs.recommended,
+    tseslint.configs.recommended,
     {
         files: ['**/*.ts', '**/*.mts'],
         ignores: ['node_modules', '.homeybuild'],
