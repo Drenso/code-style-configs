@@ -6,7 +6,7 @@
   "repository": "https://github.com/Drenso/code-style-configs",
   "dependencies": {
     "@drenso/stylelint-config": "^1.0.0",
-    "stylelint-config-recommended-vue": "^1.6.1"
+    "stylelint-config-recommended-vue": "^2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^17.5.0"
