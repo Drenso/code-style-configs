@@ -52,6 +52,10 @@ export default defineConfig(
                     selector: "CallExpression[callee.name='clearTimeout']",
                     message: 'Use homey.clearTimeout instead.',
                 },
+                {
+                    selector: "CallExpression[callee.object.name='console']",
+                    message: 'Use of console is prohibited, use relevant log methods instead.',
+                },
             ],
         },
     },
